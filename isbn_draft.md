@@ -10,7 +10,7 @@ intending to add to the database.
 
 ## Dissecting an ISBN
 
-Let's look at all the different parts that make up a ISBN:
+Let's look at all the different parts that make up an ISBN:
 
 | EAN | Group | Publisher | Title | Check digit |
 | --- | ----- | --------- | ----- | ----------- |
@@ -34,7 +34,7 @@ In our example above the registered publisher for any works starting with `978-1
 ### Identifying a mismatch between `Country` and ISBN
 
 You will often find that Hardcover has pulled the wrong information for the
-`Country` field of an edition. The second block of a ISBN will make that obvious
+`Country` field of an edition. The second block of an ISBN will make that obvious
 at a glance. 
 
 | Group | Region / Language Area / Country     |
@@ -58,11 +58,11 @@ America` you will immediately know that this edition needs editing!
 ## Calculating ISBN10 from ISBN13 (or vice versa)
 
 Books published before 2007 will most likely use a ten-digit long ISBN. Similarly,
-books published after 2007 often lack a ISBN10. You can calculate the
+books published after 2007 often lack an ISBN10. You can calculate the
 corresponding ISBN with an [online
 tool](http://www.hahnlibrary.net/libraries/isbncalc.html).
 
-!> Simply adding or removing '978' in front of a ISBN will not result in a valid number! 
+!> Simply adding or removing '978' in front of an ISBN will not result in a valid number! 
 
 ## Retrieving information about a book
 
