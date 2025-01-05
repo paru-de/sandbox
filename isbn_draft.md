@@ -58,7 +58,7 @@ America` you will immediately know that this edition needs editing!
 ## Calculating ISBN10 from ISBN13 (or vice versa)
 
 Books published before 2007 will most likely use a ten-digit long ISBN. Similarly,
-books published after 2007 often lack a ISBN13. You can calculate the
+books published after 2007 often lack a ISBN10. You can calculate the
 corresponding ISBN with an [online
 tool](http://www.hahnlibrary.net/libraries/isbncalc.html).
 
