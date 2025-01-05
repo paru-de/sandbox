@@ -62,7 +62,7 @@ books published after 2007 often lack an ISBN10. You can calculate the
 corresponding ISBN with an [online
 tool](http://www.hahnlibrary.net/libraries/isbncalc.html).
 
-!> Simply adding or removing '978' in front of an ISBN will not result in a valid number! 
+!> Simply adding or removing ``978`` in front of an ISBN will not result in a valid number! 
 
 ## Retrieving information about a book
 
@@ -79,7 +79,7 @@ page associated with the book. Amazon has high resolution covers and often a
 complete list of series information
 * [Google Books](https://books.google.com): You can search through Google's
 database for a specific book by appending `isbn:` in front of the ISBN. Example:
-`isbn:9782820344960`
+`isbn:9782820344960`. **Careful**: Google tends to auto-translate. The result above shows ``Band 1`` for users in Germany, but the edition is actually from France and should be labeled as ``Tome 1``!
 
 Finally, you can look up information directly on a publisher's website, which
 will often feature the most accurate and up-to-date data.
