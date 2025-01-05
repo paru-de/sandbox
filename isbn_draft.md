@@ -131,6 +131,48 @@ website. Example: [Wuthering Heights](https://www.penguinrandomhouse.com/books/2
 
 ## Other available tools
 
+### isbntools
 * [isbntools](https://pypi.org/project/isbntools/) is a python CLI application
 capable of retrieving ISBN information from various sources. It can also process
 multiple ISBN provided by a text-file or even other CLI programs.
+
+Please refer to the official documentation for install instructions. Some useful commands:
+
+```bash
+# Fuzzy find an ISBN from the title (always confirm the result!)
+isbn_from_words "mistborn final empire"
+> 9780765311788
+
+# Return the collection of ISBN's associated with a book
+isbn_editions 9780765311788
+> 9788413143194
+> 9784150204990
+> 9784150204952
+> ...
+
+# Get basic meta information
+isbn_meta 9780765311788
+> Type:      BOOK
+> Title:     Mistborn - The Final Empire
+> Author:    Brandon Sanderson
+> ISBN:      9780765311788
+> Year:      2006
+> Publisher: Macmillan
+
+# Calculate ISBN10
+to_isbn10 9780765311788
+> 076531178X
+
+# Split ISBN into its elements
+isbn_mask 9780765311788
+> 978-0-7653-1178-8
+
+# Use a specific service and output-format
+isbn_meta 9780525505143 goob json
+> {"type": "book",
+>    "title": "Wuthering Heights - (Penguin Classics Deluxe Edition)",
+>   "author": [{"name": "Emily Bronte"}],
+>     "year": "2009",
+> "identifier": [{"type": "ISBN", "id": "9780525505143"}],
+> "publisher": "Penguin"}
+```
