@@ -55,6 +55,8 @@ at a glance.
 If you see ISBN `9782820344960` with the `Country` listed as `United States of
 America` you will immediately know that this edition needs editing!
 
+We can also use the group block to identify whether an edition with a Portuguese title was published in Portugal (972) or Brazil (85).
+
 ## Calculating ISBN10 from ISBN13 (or vice versa)
 
 Books published before 2007 will most likely use a ten-digit long ISBN. Similarly,
