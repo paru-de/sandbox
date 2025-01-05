@@ -16,7 +16,7 @@ Let's look at all the different parts that make up a ISBN:
 | --- | ----- | --------- | ----- | ----------- |
 | 978 | 1     | 9747      | 3463  | 4           |
 
-- **EAN**: Always 978 or 979
+- **EAN**: Almost always 978 or 979
 - **Registration Group**: Either a language-sharing country group, individual
 country or territory
 - **Publisher**: A unique number issued to a registered publisher by their local
