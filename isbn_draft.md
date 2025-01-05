@@ -28,7 +28,7 @@ associated with a specific edition of a book
 ### Identifying the publisher of a book
 
 With the help of the first three blocks we can look up the publisher of a
-specific edition. The International ISBN Agency maintains an annually updated and searchable database of all registered publishers: The [Global Register of Publishers](https://grp.isbn-international.org/).
+specific edition. The International ISBN Agency maintains an annually updated and searchable database of all registered publishers: The <a href="https://grp.isbn-international.org/" target="_blank">Global Register of Publishers</a>.
 In our example above the registered publisher for any works starting with `978-1-9747` is `Viz Media, United States of America`.
 
 ### Identifying a mismatch between `Country` and ISBN
@@ -50,7 +50,7 @@ at a glance.
 | 8     | Prefixes of length 2                 |
 | 9     | Prefixes of length 2, 3, 4 or 5      |
 
-*For a complete list refer to [Wikipedia](https://en.wikipedia.org/wiki/List_of_ISBN_registration_groups)*
+*For a complete list refer to <a href="https://en.wikipedia.org/wiki/List_of_ISBN_registration_groups" target="_blank">Wikipedia</a>*
 
 If you see ISBN `9782820344960` with the `Country` listed as `United States of
 America` you will immediately know that this edition needs editing!
@@ -72,14 +72,14 @@ The ISBN does not encode information such as title or author of a book.
 Hardcover will pull these fields from various databases automatically. We can
 verify this data with the help of a few websites:
 
-* [ISBNsearch.org](https://isbnsearch.org): Quickly check the binding,
+* <a href="https://isbnsearch.org" target="_blank">ISBNsearch.org</a>: Quickly check the binding,
 publication date and associated cover
-* [WorldCat](https://search.worldcat.org/): WorldCat will often include physical
+* <a href="https://search.worldcat.org/" target="_blank">WorldCat</a>: WorldCat will often include physical
 descriptions of a book, including the page count
-* [Amazon](https://amazon.com): Searching for an ISBN will return the product
+* <a href="https://amazon.com" target="_blank">Amazon</a>: Searching for an ISBN will return the product
 page associated with the book. Amazon has high resolution covers and often a
 complete list of series information
-* [Google Books](https://books.google.com): You can search through Google's
+* <a href="https://books.google.com" target="_blank">Google Books</a>: You can search through Google's
 database for a specific book by appending `isbn:` in front of the ISBN. Example:
 `isbn:9782820344960`. **Careful**: Google tends to auto-translate. The result above shows ``Band 1`` for users in Germany, but the edition is actually from France and should be labeled as ``Tome 1``!
 
@@ -88,21 +88,21 @@ will often feature the most accurate and up-to-date data.
 
 ### National Libraries, Services and Retailers
 
-* [BnF Catalogue Général](https://catalogue.bnf.fr): France
-* [Books.or.jp](https://www.books.or.jp/): Japan
-* [Deutsche National Bibliothek](https://katalog.dnb.de/DE/home.html?v=plist): Germany
-* [Koninklijke Bibliotheek](https://www.kb.nl/en/research-find): Netherlands
-* [Library of Congress](https://www.loc.gov/): United States of America
-* [Ministerio de Cultura de España](https://www.cultura.gob.es/en/cultura/libro/isbn.html): Spain
-* [PORBASE Catalogue](https://urn.porbase.org): Portuguese language
-* [Servizio Bibliotecario Nazionale](https://opac.sbn.it/): Italy
+* <a href="https://catalogue.bnf.fr" target="_blank">BnF Catalogue Général</a>: France
+* <a href="https://www.books.or.jp/" target="_blank">Books.or.jp</a>: Japan
+* <a href="https://katalog.dnb.de/DE/home.html?v=plist" target="_blank">Deutsche National Bibliothek</a>: Germany
+* <a href="https://www.kb.nl/en/research-find" target="_blank">Koninklijke Bibliotheek</a>: Netherlands
+* <a href="https://www.loc.gov/" target="_blank">Library of Congress</a>: United States of America
+* <a href="https://www.cultura.gob.es/en/cultura/libro/isbn.html" target="_blank">Ministerio de Cultura de España</a>: Spain
+* <a href="https://urn.porbase.org" target="_blank">PORBASE Catalogue</a>: Portuguese language
+* <a href="https://opac.sbn.it/" target="_blank">Servizio Bibliotecario Nazionale</a>: Italy
 
 Retailers are also a good source for information, for example:
 
-* [Agapea](https://www.agapea.com/): Spain
-* [Barnes & Noble](https://www.barnesandnoble.com/), [Powells](https://www.powells.com/): United States of America
-* [Cultura](https://www.cultura.com/), [fnac](https://www.fnac.com): France
-* [Thalia](https://www.thalia.de/), [Osiander](https://www.osiander.de/): Germany
+* <a href="https://www.agapea.com/" target="_blank">Agapea</a>: Spain
+* <a href="https://www.barnesandnoble.com/" target="_blank">Barnes & Noble</a>, <a href="https://www.powells.com/" target="_blank">Powells</a>: United States of America
+* <a href="https://www.cultura.com/" target="_blank">Cultura</a>, <a href="https://www.fnac.com" target="_blank">fnac</a>: France
+* <a href="https://www.thalia.de/" target="_blank">Thalia</a>, <a href="https://www.buecher.de/" target="_blank">Bücher.de</a>: Germany
 
 ## ASIN
 
@@ -118,7 +118,7 @@ is thus `0141439556`.
 
 ?> Note that printed books are often assigned their ISBN10 as ASIN.
 
-* [ASIN Collector](https://addons.mozilla.org/en-US/firefox/addon/asin-collector/) is a Firefox extension that can bulk-extract ASIN's for all available editions of a book.
+* <a href="https://addons.mozilla.org/en-US/firefox/addon/asin-collector/" target="_blank">ASIN Collector</a> is a Firefox extension that can bulk-extract ASIN's for all available editions of a book.
 
 ### eBook ASIN
 
@@ -130,12 +130,12 @@ details*.
 !> Don't get tricked by Amazon: It will almost always omit the ISBN of an eBook
 in favor of ASIN. That doesn't mean that the eBook of *Wuthering Heights* is
 Kindle-exclusive. You can find the ISBN of an eBook by visiting the publisher's
-website. Example: [Wuthering Heights](https://www.penguinrandomhouse.com/books/286389/wuthering-heights-by-emily-bronte/) eBook ISBN is `9780525505143`.
+website. Example: <a href="https://www.penguinrandomhouse.com/books/286389/wuthering-heights-by-emily-bronte/" target="_blank">Wuthering Heights</a> eBook ISBN is `9780525505143`.
 
 ## Other available tools
 
 ### isbntools
-* [isbntools](https://pypi.org/project/isbntools/) is a python CLI application
+* <a href="https://pypi.org/project/isbntools/" target="_blank">isbntools</a> is a python CLI application
 capable of retrieving ISBN information from various sources. It can also process
 multiple ISBN provided by a text-file or even other CLI programs.
 
