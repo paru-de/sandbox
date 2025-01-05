@@ -74,7 +74,7 @@ verify this data with the help of a few websites:
 publication date and associated cover
 * [WorldCat](https://search.worldcat.org/): WorldCat will often include physical
 descriptions of a book, including the page count
-* [Amazon](https://amazon.com): Searching for a ISBN will return the product
+* [Amazon](https://amazon.com): Searching for an ISBN will return the product
 page associated with the book. Amazon has high resolution covers and often a
 complete list of series information
 * [Google Books](https://books.google.com): You can search through Google's
