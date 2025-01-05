@@ -146,7 +146,7 @@ Please refer to the official documentation for install instructions. Some useful
 isbn_from_words "mistborn final empire"
 > 9780765311788
 
-# Return the collection of ISBN's associated with a book
+# Return a collection of ISBN's associated with a book
 isbn_editions 9780765311788
 > 9788413143194
 > 9784150204990
