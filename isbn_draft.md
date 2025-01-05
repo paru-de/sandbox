@@ -1,7 +1,7 @@
 # Working with ISBN
 
 The **International Standard Book Number** (ISBN) of a book is a unique number
-which helps identify information about published work. While Hardcover will
+which helps identify information about published works. While Hardcover will
 pull most information associated with an ISBN automatically, it can still be
 helpful to know how to use an ISBN to retrieve data about an edition you're
 intending to add to the database.
@@ -87,21 +87,20 @@ will often feature the most accurate and up-to-date data.
 ### National Libraries, Services and Retailers
 
 * [BnF Catalogue Général](https://catalogue.bnf.fr): France
-* [PORBASE Catalogue](https://urn.porbase.org): Portuguese language
+* [Books.or.jp](https://www.books.or.jp/): Japan
+* [Deutsche National Bibliothek](https://katalog.dnb.de/DE/home.html?v=plist): Germany
+* [Koninklijke Bibliotheek](https://www.kb.nl/en/research-find): Netherlands
 * [Library of Congress](https://www.loc.gov/): United States of America
 * [Ministerio de Cultura de España](https://www.cultura.gob.es/en/cultura/libro/isbn.html): Spain
-* [Deutsche National Bibliothek](https://katalog.dnb.de/DE/home.html?v=plist):
-Germany
+* [PORBASE Catalogue](https://urn.porbase.org): Portuguese language
 * [Servizio Bibliotecario Nazionale](https://opac.sbn.it/): Italy
-* [Koninklijke Bibliotheek](https://www.kb.nl/en/research-find): Netherlands
-* [Books.or.jp](https://www.books.or.jp/): Japan
 
 Retailers are also a good source for information, for example:
 
-* [Barnes & Noble](https://www.barnesandnoble.com/), [Powells](https://www.powells.com/): United States of America
-* [Thalia](https://www.thalia.de/), [Osiander](https://www.osiander.de/): Germany
-* [Cultura](https://www.cultura.com/), [fnac](https://www.fnac.com): France
 * [Agapea](https://www.agapea.com/): Spain
+* [Barnes & Noble](https://www.barnesandnoble.com/), [Powells](https://www.powells.com/): United States of America
+* [Cultura](https://www.cultura.com/), [fnac](https://www.fnac.com): France
+* [Thalia](https://www.thalia.de/), [Osiander](https://www.osiander.de/): Germany
 
 ## ASIN
 
@@ -113,7 +112,9 @@ Amazon's website. The quickest way to find the ASIN is to look at the URL:
 `https://www.amazon.com/dp/0143105434`
 
 The ASIN usually follows directly after `dp`. For *Wuthering Heights* the ASIN
-is thus `0141439556`. Note that books are often assigned their ISBN10 as ASIN.
+is thus `0141439556`. 
+
+?> Note that printed books are often assigned their ISBN10 as ASIN.
 
 * [ASIN Collector](https://addons.mozilla.org/en-US/firefox/addon/asin-collector/) is a Firefox extension that can bulk-extract ASIN's for all available editions of a book.
 
@@ -124,7 +125,7 @@ details*.
 
 *Penguin Classics' Wuthering Heights deluxe edition*'s ASIN is `B0768ZM5QH`.
 
-!> Don't get tricked by Amazon: AMZ will almost always omit the ISBN of an eBook
+!> Don't get tricked by Amazon: It will almost always omit the ISBN of an eBook
 in favor of ASIN. That doesn't mean that the eBook of *Wuthering Heights* is
 Kindle-exclusive. You can find the ISBN of an eBook by visiting the publisher's
 website. Example: [Wuthering Heights](https://www.penguinrandomhouse.com/books/286389/wuthering-heights-by-emily-bronte/) eBook ISBN is `9780525505143`.
